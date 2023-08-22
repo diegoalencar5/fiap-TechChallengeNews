@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/PosTech.News/News.ApplicationCore/bin/Debug/net6.0
+/PosTech.News/News.ApplicationCore/obj
+/PosTech.News/News.ApplicationCore/Repositories/GenericRepository.cs
+/PosTech.News/News.Security.JWT/bin/Debug/net6.0
+/PosTech.News/WebAPI/bin/Debug/net6.0
+/PosTech.News/News.Security.JWT/obj
+/PosTech.News/WebAPI/obj
+/PosTech.News/.vs/PosTech.News/FileContentIndex
