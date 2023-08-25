@@ -2,7 +2,7 @@ name: Build and deploy .NET Core application to Web App postech-news-api
 on:
   push:
     branches:
-    - fix-publish
+    - main
 env:
   AZURE_WEBAPP_NAME: postech-news-api
   AZURE_WEBAPP_PACKAGE_PATH: WebAPI\publish
