@@ -50,6 +50,9 @@ builder.Services.AddSwaggerGen(c =>
 
 // Configurando o uso da ConfigurationManager
 var configuration = builder.Configuration;
+configuration.AddJsonFile("appsettings.json");
+configuration.AddJsonFile("appsettings.Development.json");
+
 
 // acesso às tabelas da autenticação
 builder.Services.AddDbContext<ApiSecurityDbContext>(options =>

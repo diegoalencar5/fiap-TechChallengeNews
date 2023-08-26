@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "News.WebAPI", "WebAPI\News.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "News.Security.JWT", "News.Security.JWT\News.Security.JWT.csproj", "{E4BD269F-58CB-4F70-9022-2B47D93043E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "News.ApplicationCore", "News.ApplicationCore\News.ApplicationCore.csproj", "{A479DC4D-7642-4614-85DE-DEA158D08120}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "News.ApplicationCore", "News.ApplicationCore\News.ApplicationCore.csproj", "{A479DC4D-7642-4614-85DE-DEA158D08120}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "News.WebApplication", "News.WebApplication\News.WebApplication.csproj", "{E1B7C717-3E8A-4E10-9C1B-56E92E52AC84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{A479DC4D-7642-4614-85DE-DEA158D08120}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A479DC4D-7642-4614-85DE-DEA158D08120}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A479DC4D-7642-4614-85DE-DEA158D08120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1B7C717-3E8A-4E10-9C1B-56E92E52AC84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1B7C717-3E8A-4E10-9C1B-56E92E52AC84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1B7C717-3E8A-4E10-9C1B-56E92E52AC84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1B7C717-3E8A-4E10-9C1B-56E92E52AC84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 		{11DA73F7-82C9-432F-A2B0-573C00D34B5F} = {704F12BC-5F11-4E2B-AAB9-B1929ED1B359}
 		{E4BD269F-58CB-4F70-9022-2B47D93043E1} = {704F12BC-5F11-4E2B-AAB9-B1929ED1B359}
 		{A479DC4D-7642-4614-85DE-DEA158D08120} = {704F12BC-5F11-4E2B-AAB9-B1929ED1B359}
+		{E1B7C717-3E8A-4E10-9C1B-56E92E52AC84} = {704F12BC-5F11-4E2B-AAB9-B1929ED1B359}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DCB1687C-2590-4E89-9B88-64931E13C779}
