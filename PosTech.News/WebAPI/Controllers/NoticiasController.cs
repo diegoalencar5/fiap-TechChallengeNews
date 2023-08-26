@@ -7,7 +7,7 @@ using News.ApplicationCore.Repositories;
 namespace News.WebAPI.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class NoticiasController : ControllerBase
     {
         private readonly INoticiasRepository repository;

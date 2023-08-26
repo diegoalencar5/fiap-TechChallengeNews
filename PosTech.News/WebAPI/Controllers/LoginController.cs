@@ -7,7 +7,7 @@ using System.Net;
 namespace News.WebAPI.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class LoginController : ControllerBase
     {
         [AllowAnonymous]
