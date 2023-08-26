@@ -11,14 +11,13 @@ namespace News.WebApplication.Models
         [DisplayName("Título")]
         public string Titulo { get; set; }
 
-        [DataType(DataType.MultilineText)]
-        [UIHint("Descricao")]
+        [DataType(DataType.MultilineText)]        
         [DisplayName("Descrição")]
         public string Descricao { get; set; }
 
         [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
-        [DisplayName("Data de Publicação")]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+        [DisplayName("Data de Publicação")]        
         public DateTime DataPublicacao { get; set; }
 
         [DisplayName("Autor")]
