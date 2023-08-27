@@ -16,7 +16,7 @@
         <dt>@Html.DisplayNameFor(model => model.Autor)</dt>
         <dd>@Html.DisplayFor(model => model.Autor)</dd>
         <dt>@Html.DisplayNameFor(model => model.DataPublicacao)</dt>
-        <dd>@Html.DisplayFor(model => model.DataPublicacao)</dd>
+        <dd>@Html.DisplayFor(model => model.DataPublicacao, "{0:dd/MM/yyyy}")</dd>
         <dt>@Html.DisplayNameFor(model => model.Descricao)</dt>        
         <dd>@Html.Raw(Model.Descricao.Replace(Environment.NewLine, "<br/>"))</dd>
     </dl>
