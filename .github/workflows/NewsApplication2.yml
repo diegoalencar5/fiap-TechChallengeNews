@@ -2,7 +2,7 @@ name: Build and deploy .NET Core application to Web App NewsApplication2
 on:
   push:
     branches:
-    - new-azure-configuration
+    - main
 env:
   AZURE_WEBAPP_NAME: NewsApplication2
   AZURE_WEBAPP_PACKAGE_PATH: News.WebApplication\published
