@@ -11,6 +11,7 @@ namespace News.WebApplication.Controllers
     public class NoticiasController : Controller
     {
         private readonly ApiSettings _apiSettings;
+
         public NoticiasController(IOptions<ApiSettings> options)
         {
             _apiSettings = options.Value;
@@ -113,7 +114,6 @@ namespace News.WebApplication.Controllers
             return View(noticia);
         }
 
-
         public IActionResult Details(int? id)
         {
             if (id == null)
@@ -175,7 +175,5 @@ namespace News.WebApplication.Controllers
 
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
         }
-
     }
-
 }
